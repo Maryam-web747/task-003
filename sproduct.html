@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ecommerce Store</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <header>
+            <a href="#"><img src="logof.png"  class="logo" alt="logo of website"></a>
+            <div>
+                <ul id="navbar">
+                    <li><a  href="index.html">Home</a></li>
+                    <li><a  class="active" href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.htmml">About us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                    <a href="#" id="close"><i class="far fa-times"></i></a>
+
+                </ul>
+            </div> 
+            <div  id="mobile">
+            <a href="cart.html"><i class="far fa-times"></i></a>
+            </div> 
+        </header>
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="s1.jpg" width="100%" id="MainImg" alt="">
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="s3.jpg" width="100%" id="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="s6.jpg" width="100%" id="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="s7.jpg" width="100%" id="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="s8.jpg" width="100%" id="small-img" alt="">
+                    </div>
+                   
+
+                </div>
+            </div>
+            <div class="single-pro-details">
+                <h6>Home / T-Shirt</h6>
+                <h4>All Gender T-Shirts </h4>
+                <h2>$50</h2>
+                <select>
+                    <option>Select Size</option>
+                    <option>XLL</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Small</option>
+                    <option>Zero size</option>
+                    
+                </select>
+                <input type="number" value="1">
+                <button class="normal">Add to Cart</button>
+                <h4>Product detail</h4>
+                <p>Clothes are what we wear every day to keep our bodies safe and comfy. They come in many colors, shapes, and sizes. Some are for hot weather, like T-shirts and shorts. Others are for cold weather, like sweaters and coats. We also have special clothes for events like birthdays or weddings.</p>
+            </div>
+        </section>
+        <section id="product1" class="section-p1">
+            <h2>Featured Products</h2>
+            <p>NEW BEST Collection with huge discount and design</p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="demo1.jpg" alt="product 1">
+                    <div class="des">
+                        <span>Ellgenc</span>
+                        <h5>Belted wrap coat </h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$30</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="demo2.jpg" alt="product 1">
+                    <div class="des">
+                        <span>Cashmere coat</span>
+                        <h5>Brown Women Coat </h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$35</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="demo3.jpg" alt="product 1">
+                    <div class="des">
+                        <span>Girls T-Shirt</span>
+                        <h5>Pink Glitter logo </h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$15</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="demo4.jpg" alt="product 1">
+                    <div class="des">
+                        <span>Girls T-Shirt</span>
+                        <h5>Pink Glitter logo </h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$15</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart"></i></a>
+                </div>
+            </div>
+                
+        </div>
+
+    </section>
+                <section id="newsletter" class="section-p1 section-m1" >
+                    <div class="newstext">
+                        <h4>Sign Up for Newsletter</h4>
+                        <p>Get Email updates about our latest shop and <span>special offers</span></p>
+                    </div>
+                    <div class="form">
+                        <input type="text" placeholder="Email Address">
+                        <button class="normal">Sign Up</button>
+                    </div>
+
+                 </section>
+       <script>
+        var MainImg=document.getElementById("MainImg");
+        var smalling=document.getElementsByClassName("small-img");
+        smallimg[0].onclick=function(){
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick=function(){
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick=function(){
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick=function(){
+            MainImg.src = smallimg[3].src;
+        }
+       </script>  
+        <script src="script.js" type="text/javascript"></script>   
+                </body>
+            </html>
